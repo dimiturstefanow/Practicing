@@ -13,3 +13,4 @@ function checkPalindrome(str) {
 }
 
 console.log(checkPalindrome("A man, a plan, a canal. Panama"));
+// synch
