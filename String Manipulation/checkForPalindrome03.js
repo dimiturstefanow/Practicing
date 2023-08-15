@@ -1,12 +1,12 @@
-// Simpliest way to check palindrome
+// check palidrom easiest way
 
-const str = "Anna"
+const str = "Racecar!"
 
-function checkPalindrome(str){
-    str = str.replace(/\W/g, "");
+function isPalindrome(str){
+    str = str.replace(/\W/g, "")
     str = str.toLowerCase();
 
     return str === str.split("").reverse().join("")
 }
 
-console.log(checkPalindrome(str));
+console.log(isPalindrome(str));
