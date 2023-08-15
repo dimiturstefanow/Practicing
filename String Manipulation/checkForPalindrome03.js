@@ -1,12 +1,12 @@
-// Simple way
+// Simpliest way to check palindrome
 
-const str = "I did, did I";
+const str = "Anna"
 
-function isPalindrome(str){
-  str = str.replace(/\W/g, "")
-  str = str.toLowerCase();
-  
-  return str === str.split("").reverse().join("")
-};
+function checkPalindrome(str){
+    str = str.replace(/\W/g, "");
+    str = str.toLowerCase();
 
-console.log(isPalindrome(str));
+    return str === str.split("").reverse().join("")
+}
+
+console.log(checkPalindrome(str));
