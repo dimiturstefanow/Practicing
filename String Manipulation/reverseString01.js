@@ -1,9 +1,9 @@
-// Simpliest way to reverse a string
+// Easiest way to reverse a string
 
+const str = "Reversed"
 
-const str = "Example"
-console.log(reverseString(str));
-
-function reverseString(str){
-    return str.split("").reverse().join("")
+function reverseStr(str){
+    return str = str.split("").reverse().join("")
 }
+
+console.log(reverseStr(str));
