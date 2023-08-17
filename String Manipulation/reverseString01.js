@@ -7,3 +7,14 @@ function reverseStr(str){
 }
 
 console.log(reverseStr(str));
+
+
+/*
+const str = "reversed"
+
+function reverseStr(str){
+    return str.split("").reverse().join("")
+}
+
+console.log(reverseStr(str));
+*/
