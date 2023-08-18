@@ -1,32 +1,12 @@
-// easiest way to check palindrome
+// Easiest way to find if it is palindrome
 
-const str = "racecar";
-
-function isPalindrome(str) {
-  str = str.replace(/\W/g, "");
-
-  str = str.toLowerCase();
-
-  return str === str.split("").reverse().join("")
-}
-
-
-console.log(isPalindrome(str));
-
-
-
-
-/*
-const str = "racecar" // true
+const str = "AAA"
 
 function isPalindrome(str){
   str = str.replace(/\W/g, "");
   str = str.toLowerCase();
 
   return str === str.split("").reverse().join("")
-
-
 }
 
 console.log(isPalindrome(str));
-*/
