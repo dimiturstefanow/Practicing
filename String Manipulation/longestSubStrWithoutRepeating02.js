@@ -1,5 +1,22 @@
+// second approach
 
+function lengthOfLongestSubstring(s) {
+  if (s.length < 2) return s.length;
+  const map = {};
+  let front = 0,
+    back = 0,
+    maxLength = 0;
+  for (; front < s.length; front += 1) {
+    const exist = map[s[front]];
+    if (exist !== undefined && back <= exist) {
+      back = exist + 1;
+    }
 
-function lengthOfLongestSubstring(s){
-    
+    map[s[front]] = front;
+    maxLength = Math.max(front - back + 1, maxLength);
+  }
+  return maxLength;
 }
+
+
+console.log(lengthOfLongestSubstring("dabgfwerwegwerheryhriyuoliujhfddfe"));
