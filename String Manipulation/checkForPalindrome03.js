@@ -1,10 +1,10 @@
 // Easiest way to find if it is palindrome
 
-const str = "AAA"
+const str = "racecar";
 
 function isPalindrome(str){
+  str = str.toLowerCase()
   str = str.replace(/\W/g, "");
-  str = str.toLowerCase();
 
   return str === str.split("").reverse().join("")
 }
