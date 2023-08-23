@@ -1,9 +1,9 @@
 // Easiest way to reverse a string
 
-const str = "Reversed"
+const str = "qsha"
 
 function reverseStr(str){
-    return str = str.split("").reverse().join("")
+    return str.split("").reverse().join("");
 }
 
 console.log(reverseStr(str));
