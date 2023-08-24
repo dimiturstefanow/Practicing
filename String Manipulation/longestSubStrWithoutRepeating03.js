@@ -25,5 +25,5 @@ function longestSubStr(str) {
   }
   return maxlength;
 }
-
+// synch
 console.log(longestSubStr("abcabcbb"));
