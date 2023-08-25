@@ -1,9 +1,9 @@
-// Easiest way to find if it is palindrome
+// Easiest way to find to a palindrome
 
 const str = "racecar";
 
-function isPalindrome(str){
-  str = str.toLowerCase()
+function isPalindrome(str) {
+  str = str.toLowerCase();
   str = str.replace(/\W/g, "");
 
   return str === str.split("").reverse().join("")
