@@ -14,7 +14,7 @@ function lengthOfLongestSubstring(s) {
 
       maxLength = Math.max(maxLength, end - start + 1);
       charIndexMap[char] = end;
-  }// nema shto
+  }
 
   return maxLength;
 }
