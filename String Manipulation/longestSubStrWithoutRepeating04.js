@@ -16,9 +16,6 @@ function lengthOfLongestSubstring(s) {
       charIndexMap[char] = end;
   }
 
-
-  
-
   return maxLength;
 }
 
